@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仿微博添加和删除动画</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="send clearfix">
+            <div class="box focus">
+                <textarea id="say" placeholder="ctrl+enter快速发表" autofocus="autofocus"></textarea>
+            </div>
+            <div class="func_area">
+                <a href="javascript:;" class="express">
+                    <em></em>表情
+                </a>
+                <span class="tips">最多可输入<em class="limit" id="limit">140</em>个字</span>
+                <input type="button" class="submit" id="submit" value="发布">
+            </div>
+            <div class="exp_list">
+                <div class="clearfix"><span class="close">x</span></div>
+                <ul class="content clearfix"></ul>
+            </div>
+        </div>
+        <div class="content">
+            <ul id="talklist">
+                <li class="first"></li>
+                <li class="item">
+                    <p>光和热价格将让干活而几个金融股而今日韩国而今日韩国额空间人工湖额狂人合格客韩国科技更何况菊花哥快干活而况人乎顾客让韩国可</p>
+                    <div class="info">
+                        <span class="datetime fl">2013/04/09 14:45:10</span>
+                        <div class="fr"><a class="delBtn" href='javascript:;'>删除</a></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <p>任何人和投入人让他忽然听话人红人堂然后 让他忽然听话润喉糖人挺好</p>
+                    <div class="info">
+                        <span class="datetime fl">2013/04/09 13:45:40</span>
+                        <div class="fr"><a class="delBtn" href='javascript:;'>删除</a></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <p>嘎嘎嘎个任何人挺好教育局他肽聚糖金太阳交通局他太远 润喉糖</p>
+                    <div class="info">
+                        <span class="datetime fl">2013/04/09 13:45:20</span>
+                        <div class="fr"><a class="delBtn" href='javascript:;'>删除</a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./js/express.js"></script>
+<script type="text/javascript" src="./js/check.js"></script>
